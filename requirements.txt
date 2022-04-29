@@ -1,0 +1,135 @@
+aiofiles==0.8.0
+albumentations==1.1.0
+anyio==3.5.0
+argcomplete==2.0.0
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+boto3==1.21.43
+botocore==1.24.43
+Bottleneck @ file:///C:/ci/bottleneck_1607557040328/work
+brotlipy==0.7.0
+certifi==2021.10.8
+cffi @ file:///C:/ci/cffi_1636523946399/work
+chardet @ file:///C:/ci/chardet_1605296577955/work
+charset-normalizer==2.0.12
+click==8.0.3
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+cryptography @ file:///C:/ci/cryptography_1639414720302/work
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+Cython==0.29.28
+debugpy @ file:///C:/ci/debugpy_1637091961445/work
+decorator @ file:///tmp/build/80754af9/decorator_1632776554403/work
+Deprecated==1.2.13
+dill==0.3.4
+dnspython==2.2.1
+entrypoints==0.3
+eventlet==0.33.0
+fiftyone==0.15.0.1
+fiftyone-brain==0.8.1
+fiftyone-db==0.3.0
+Flask==2.0.3
+fonttools==4.25.0
+future==0.18.2
+glob2==0.7
+greenlet==1.1.2
+h11==0.12.0
+httpcore==0.14.7
+httpx==0.22.0
+idna @ file:///home/linux1/recipes/ci/idna_1610986105248/work
+imageio @ file:///tmp/build/80754af9/imageio_1617700267927/work
+ipykernel @ file:///C:/ci/ipykernel_1633545585502/work/dist/ipykernel-6.4.1-py3-none-any.whl
+ipython @ file:///C:/ci/ipython_1635944283918/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+itsdangerous==2.0.1
+jedi @ file:///C:/ci/jedi_1611341083684/work
+Jinja2==3.0.3
+jmespath==1.0.0
+joblib==1.1.0
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1640335223713/work
+jupyter-core @ file:///C:/ci/jupyter_core_1636537172022/work
+kaleido==0.2.1
+kiwisolver @ file:///C:/ci/kiwisolver_1612282555033/work
+MarkupSafe==2.0.1
+matplotlib @ file:///C:/ci/matplotlib-suite_1638289827560/work
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mkl-fft==1.3.1
+mkl-random @ file:///C:/ci/mkl_random_1626186184308/work
+mkl-service==2.4.0
+mongoengine==0.20.0
+motor==2.5.1
+MouseInfo==0.1.3
+munkres==1.1.4
+ndjson==0.3.1
+nest-asyncio @ file:///tmp/build/80754af9/nest-asyncio_1613680548246/work
+networkx==2.8
+numexpr @ file:///C:/ci/numexpr_1640704337920/work
+numpy==1.22.3
+olefile @ file:///Users/ktietz/demo/mc3/conda-bld/olefile_1629805411829/work
+onnx==1.10.1
+opencv-python==4.5.5.62
+opencv-python-headless==4.5.5.64
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas @ file:///C:/ci/pandas_1641443174429/work
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+patool==1.12
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==8.4.0
+plotly==4.14.3
+pprintpp==0.4.0
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+protobuf==3.16.0
+psutil==5.9.0
+PyAutoGUI==0.9.53
+pycocotools @ git+https://github.com/philferriere/cocoapi.git@2929bd2ef6b451054755dfd7ceb09278f935f7ad#subdirectory=PythonAPI
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+PyGetWindow==0.0.9
+Pygments @ file:///tmp/build/80754af9/pygments_1629234116488/work
+pymongo==3.12.3
+PyMsgBox==1.0.9
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+pyperclip==1.8.2
+PyRect==0.1.4
+PyScreeze==0.1.28
+PySocks @ file:///C:/ci/pysocks_1605307512533/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytweening==1.0.4
+pytz==2021.3
+pytz-deprecation-shim==0.1.0.post0
+PyWavelets==1.3.0
+pywin32==302
+PyYAML==6.0
+pyzmq @ file:///C:/ci/pyzmq_1638435148211/work
+qudida==0.0.4
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+retrying==1.3.3
+rfc3986==1.5.0
+s3transfer==0.5.2
+scikit-image==0.19.2
+scikit-learn==1.0.2
+scipy @ file:///C:/ci/scipy_1641555170412/work
+seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
+sip==4.19.13
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+sniffio==1.2.0
+sortedcontainers==2.4.0
+tabulate==0.8.9
+threadpoolctl==3.1.0
+tifffile==2022.4.8
+torch==1.10.1
+torchaudio==0.10.1
+torchvision==0.11.2
+tornado @ file:///C:/ci/tornado_1606924294691/work
+tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
+traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+typing-extensions @ file:///tmp/build/80754af9/typing_extensions_1631814937681/work
+tzdata==2022.1
+tzlocal==4.2
+universal-analytics-python3==1.1.1
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
+voxel51-eta==0.6.5
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+Werkzeug==2.0.3
+win-inet-pton @ file:///C:/ci/win_inet_pton_1605306162074/work
+wincertstore==0.2
+wrapt==1.14.0
+xmltodict==0.12.0
