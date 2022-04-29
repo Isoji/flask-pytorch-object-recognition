@@ -18,7 +18,7 @@ class Detector:
         # Sets the device to gpu if available, else it uses cpu
         self.device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
         # Loads the model
-        self.model = torch.load("app/model/tuned_fasterrcnn.pt")
+        self.model = torch.load("model/tuned_fasterrcnn.pt")
         self.model.to(self.device).eval()
 
     # Method that inferences the model on the image input and returns the predictions
