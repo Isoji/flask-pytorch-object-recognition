@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Object Detection in PyTorch</title>
+    <script>
+      var isPopupDisplayed = false;
+      var modal = document.getElementById("myModal");
+      var btn = document.getElementById("myBtn");
+      var span = document.getElementsByClassName("close")[0];
+
+      span.onclick = function(){
+        modal.style.display = "none";
+      }
+
+      function showPopup(){
+        document.getElementById("myModal").style.display = "block";
+      }
+
+      function closePopup(){
+        document.getElementById("myModal").style.display = "none";
+      }
+
+      window.onclick = function(event){
+        document.getElementById("myModal").style.display = "none";
+      }
+    </script>
+  </head>
+  <form action="{{ url_for('home') }}">
+    <button class="btn btn-primary back-btn" onclick="">Back</button>
+  </form>
+  <body class="text-center">
+    <div class="form-results">
+        <h1 class="h3 mb-3 font-weight-normal"><b>Detection Results</b></h1>
+        <div class="image-sequence">
+            <div class="image">  
+                <img src="{{url_for('static', filename=outputImages[0])}}" alt="" width="350">
+            </div>
+            <div class="image">  
+                <img src="{{url_for('static', filename=outputImages[1])}}" alt="" width="350">
+            </div>
+            <div class="image">  
+                <img src="{{url_for('static', filename=outputImages[2])}}" alt="" width="350">
+            </div>
+        </div>
+        <button id="myBtn" class="btn btn-lg btn-primary" onclick="showPopup()">Show Animated Sequence</button>
+        <div id="myModal" class="modal">
+          <div class="modal-window">
+            <span onclick="closePopup()" class="close">&times;</span>
+            <div class="modal-window-content">
+              <img src="{{url_for('static', filename='outputs/sequence.gif')}}" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="detection-info">
+            <h5 class="h4 mb-3 font-weight-normal">Number of Detections: <b>{{ nbOfDetections }}</b></h5>
+            {% if nbOfDetections > 0 %}
+            <h5 class="h4 mb-3 font-weight-normal">Human Activity: <b>True</b></h5>
+            {% else %}
+            <h5 class="h4 mb-3 font-weight-normal">Human Activity: <b>False</b></h5>
+            {% endif %}
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="//stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>
