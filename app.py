@@ -10,11 +10,11 @@ secret = secrets.token_urlsafe(32)
 
 app = Flask(__name__)
 app.config["TEMPLATES_AUTO_RELOAD"] = True
-app.config["UPLOAD_FOLDER"] = r"C:\Users\tremb\Dev\PyTorch\app\uploads"
+app.config["UPLOAD_FOLDER"] = r"C:\Users\tremb\Dev\flask-pytorch-object-recognition\uploads"
 app.secret_key = secret
 
-STATIC_OUTPUT_FOLDER = r"C:\Users\tremb\Dev\PyTorch\app\static\outputs"
-OUTPUT_FOLDER = r"C:\Users\tremb\Dev\PyTorch\app\outputs"
+STATIC_OUTPUT_FOLDER = r"C:\Users\tremb\Dev\flask-pytorch-object-recognition\static\outputs"
+OUTPUT_FOLDER = r"C:\Users\tremb\Dev\flask-pytorch-object-recognition\outputs"
 
 detector = Detector()
 

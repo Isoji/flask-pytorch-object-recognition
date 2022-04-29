@@ -21,5 +21,5 @@ def createGif(imagePath):
         imgs.append(img)
 
     image = imgs[0]
-    image.save(fp=r"C:\Users\tremb\Dev\PyTorch\app\static\outputs\sequence.gif",
+    image.save(fp=r"C:\Users\tremb\Dev\flask-pytorch-object-recognition\static\outputs\sequence.gif",
         format='GIF', append_images=imgs, save_all=True, duration=400, loop=0)

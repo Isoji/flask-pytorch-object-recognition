@@ -85,5 +85,5 @@ class Detector:
         plt.xticks([])
         plt.yticks([])
         plt.subplots_adjust(top=1, bottom=0, right=1, left=0, hspace=0, wspace=0)
-        plt.savefig("C:/Users/tremb/Dev/PyTorch/app/outputs/"+fileName, dpi=dpi)
-        plt.savefig("C:/Users/tremb/Dev/PyTorch/app/static/outputs/"+fileName, dpi=dpi)
+        plt.savefig("C:/Users/tremb/Dev/flask-pytorch-object-recognition/outputs/"+fileName, dpi=dpi)
+        plt.savefig("C:/Users/tremb/Dev/flask-pytorch-object-recognition/static/outputs/"+fileName, dpi=dpi)
